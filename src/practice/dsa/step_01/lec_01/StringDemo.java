@@ -1,4 +1,4 @@
-package practice.dsa.lec_01;
+package practice.dsa.step_01.lec_01;
 
 public class StringDemo {
     public static void main(String[] args) {
