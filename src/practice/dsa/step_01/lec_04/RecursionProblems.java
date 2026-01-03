@@ -52,7 +52,7 @@ public class RecursionProblems {
         return n + p6(n - 1);
     }
 
-    // Parameterized way of finding Sum of n numbers
+    // Parameterized way of finding factorial of n
     public void p7(int i, double factorial) {
         if (i < 1) {
             System.out.println(factorial);
@@ -61,7 +61,7 @@ public class RecursionProblems {
         p7(i - 1, factorial * i);
     }
 
-    // Functional way of finding factorial
+    // Functional way of finding factorial of n
     public int p7(int n) {
         if (n == 1) return 1;
         return n * p7(n - 1);
